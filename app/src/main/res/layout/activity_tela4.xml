@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tela4">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txvDados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/dados_pessoais" />
+
+        <TextView
+            android:id="@+id/txvNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome" />
+
+        <TextView
+            android:id="@+id/txvIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/idade" />
+
+        <TextView
+            android:id="@+id/txvSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sexo" />
+
+        <TextView
+            android:id="@+id/txvCpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cpf" />
+
+        <TextView
+            android:id="@+id/txvDataDeNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/data_de_nascimento" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/txvEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/endereco" />
+
+        <TextView
+            android:id="@+id/txvLogradouro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logradouro" />
+
+        <TextView
+            android:id="@+id/txvNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/numero" />
+
+        <TextView
+            android:id="@+id/txvComplemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/complemento" />
+
+        <TextView
+            android:id="@+id/txvCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cidade" />
+
+        <TextView
+            android:id="@+id/txvEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/estado" />
+
+        <TextView
+            android:id="@+id/txvPais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pais" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/txvLotacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/lota_o" />
+
+        <TextView
+            android:id="@+id/txvProfissao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txvCargo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txvSalario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txvDataDeAdmissao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txvRegime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txvEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

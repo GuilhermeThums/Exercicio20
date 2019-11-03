@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Exercicio 20</string>
+    <string name="nome">Nome</string>
+    <string name="idade">Idade</string>
+    <string name="data_de_nascimento">Data de Nascimento</string>
+    <string name="cpf">CPF</string>
+    <string name="sexo">Sexo</string>
+    <string name="dados_pessoais">Dados pessoais</string>
+    <string name="seguinte">Seguinte</string>
+    <string name="endereco">Endereço</string>
+    <string name="complemento">Complemento</string>
+    <string name="pais">País</string>
+    <string name="estado">Estado</string>
+    <string name="cidade">Cidade</string>
+    <string name="numero">Número</string>
+    <string name="logradouro">Logradouro</string>
+    <string name="voltar">Voltar</string>
+    <string name="lota_o">Lotação</string>
+    <string name="profiss_o">Profissão</string>
+    <string name="empresa">Empresa</string>
+    <string name="regime_de_contrata_o">Regime de Contratação</string>
+    <string name="data_de_admiss_o">Data de admissão</string>
+    <string name="sal_rio">Salário</string>
+    <string name="cargo">Cargo</string>
+</resources>
